@@ -1,0 +1,794 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1683,
+      "type": "VEC3",
+      "max": [
+        7.1929154396057129,
+        21.544742584228516,
+        6.7897696495056152
+      ],
+      "min": [
+        -6.633613109588623,
+        -1.2449855546492472E-07,
+        -7.1219120025634766
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1683,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.8300814019767131E-07,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1683,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.69593197107315063,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.827093243598938,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1683,
+      "type": "VEC2",
+      "max": [
+        0.98010212182998657,
+        1.0003037452697754
+      ],
+      "min": [
+        1.4901161193847656E-08,
+        -0.00015014410018920898
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 6708,
+      "type": "SCALAR",
+      "max": [
+        1682.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "pines.bin",
+      "byteLength": 107616
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 20196
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20196,
+      "byteLength": 20196
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40392,
+      "byteLength": 26928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67320,
+      "byteLength": 13464
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80784,
+      "byteLength": 26832
+    }
+  ],
+  "images": [
+    {
+      "uri": "pinetree-albedo.jpg",
+      "name": "pinetree-albedo"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.63999998569488525
+      },
+      "occlusionTexture": {
+        "strength": 0.85799998044967651,
+        "index": 0
+      },
+      "emissiveFactor": [
+        0.04356864,
+        0.04356864,
+        0.04356864
+      ],
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.4440000057220459,
+      "name": "pinetree"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "pine2a Variant"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "translation": [
+        -0.0338923372,
+        0.082,
+        -0.0330390334
+      ],
+      "name": "pines"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -24.8076172,
+        -82.86011,
+        56.9394531
+      ],
+      "name": "pine2a Variant"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -76.107666,
+        -82.86011,
+        27.0390625
+      ],
+      "name": "pine2a Variant (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -62.107666,
+        -82.86011,
+        -113.361328
+      ],
+      "name": "pine2a Variant (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -6.107666,
+        -82.86011,
+        -155.260742
+      ],
+      "name": "pine2a Variant (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -15.4077148,
+        -82.86011,
+        -110.760742
+      ],
+      "name": "pine2a Variant (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        82.29224,
+        -82.86011,
+        -110.760742
+      ],
+      "name": "pine2a Variant (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        25.7922363,
+        -82.86011,
+        168.939453
+      ],
+      "name": "pine2a Variant (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -11.107666,
+        -82.86011,
+        92.53906
+      ],
+      "name": "pine2a Variant (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        67.29224,
+        -82.86011,
+        70.73926
+      ],
+      "name": "pine2a Variant (8)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        36.99243,
+        -82.86011,
+        111.338867
+      ],
+      "name": "pine2a Variant (9)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        119.692383,
+        -82.86011,
+        51.13867
+      ],
+      "name": "pine2a Variant (10)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        119.692383,
+        -82.86011,
+        -38.1611328
+      ],
+      "name": "pine2a Variant (11)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        119.692383,
+        -82.86011,
+        97.03906
+      ],
+      "name": "pine2a Variant (12)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -135.107666,
+        -82.86011,
+        -59.9609375
+      ],
+      "name": "pine2a Variant (13)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        4.35709763,
+        4.075019,
+        4.35709763
+      ],
+      "translation": [
+        -75.693,
+        -63.863,
+        -15.754
+      ],
+      "name": "pine2a Variant (14)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        4.35709763,
+        4.075019,
+        4.35709763
+      ],
+      "translation": [
+        25.4,
+        -63.863,
+        -205.6
+      ],
+      "name": "pine2a Variant (15)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        4.35709763,
+        4.075019,
+        4.35709763
+      ],
+      "translation": [
+        113.5,
+        -63.863,
+        -205.6
+      ],
+      "name": "pine2a Variant (17)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        140.6,
+        -82.86011,
+        -81.0
+      ],
+      "name": "pine2a Variant (19)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        215.0,
+        -82.86011,
+        -81.0
+      ],
+      "name": "pine2a Variant (20)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        171.1,
+        -82.86011,
+        -20.6
+      ],
+      "name": "pine2a Variant (21)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        171.1,
+        -82.86011,
+        -174.0
+      ],
+      "name": "pine2a Variant (22)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        223.1,
+        -82.86011,
+        -16.9
+      ],
+      "name": "pine2a Variant (24)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        223.1,
+        -82.86011,
+        95.5
+      ],
+      "name": "pine2a Variant (25)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        -137.0,
+        -82.86011,
+        95.5
+      ],
+      "name": "pine2a Variant (26)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        172.5,
+        -82.86011,
+        -92.1
+      ],
+      "name": "pine2a Variant (27)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        166.7,
+        -82.86011,
+        28.5
+      ],
+      "name": "pine2a Variant (28)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        60.2,
+        -82.86011,
+        -139.0
+      ],
+      "name": "pine2a Variant (29)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        5.8385,
+        5.8385,
+        5.8385
+      ],
+      "translation": [
+        267.9,
+        -82.86011,
+        2.9
+      ],
+      "name": "pine2a Variant (30)"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "pines"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "pinetree-albedo"
+    }
+  ]
+}

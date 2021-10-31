@@ -1,0 +1,178 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1981,
+      "type": "VEC3",
+      "max": [
+        11.788488388061523,
+        17.140621185302734,
+        11.788488388061523
+      ],
+      "min": [
+        -11.396603584289551,
+        0.0,
+        -11.396603584289551
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1981,
+      "type": "VEC3",
+      "max": [
+        0.96592748165130615,
+        0.99997591972351074,
+        0.96592748165130615
+      ],
+      "min": [
+        -0.96592748165130615,
+        -1.0,
+        -0.96592748165130615
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1981,
+      "type": "VEC4",
+      "max": [
+        0.96592217683792114,
+        0.999984860420227,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.96592217683792114,
+        -0.99999618530273438,
+        -0.965912938117981,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1981,
+      "type": "VEC2",
+      "max": [
+        0.99853515625,
+        0.88192081451416016
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 7032,
+      "type": "SCALAR",
+      "max": [
+        1980.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "model.bin",
+      "byteLength": 123216
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 23772
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23772,
+      "byteLength": 23772
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47544,
+      "byteLength": 31696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79240,
+      "byteLength": 15848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 95088,
+      "byteLength": 28128
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9063317,
+          0.9063317,
+          0.9063317,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "defaultMat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "model"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.194951028,
+        0.0,
+        -0.980813
+      ],
+      "scale": [
+        0.007320416,
+        0.007320413,
+        0.007320416
+      ],
+      "translation": [
+        -0.0512650758,
+        0.02484038,
+        -0.0465747267
+      ],
+      "name": "model"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "model"
+    }
+  ]
+}

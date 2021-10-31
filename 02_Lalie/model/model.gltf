@@ -1,0 +1,240 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC3",
+      "max": [
+        0.79544597864151,
+        0.90793514251708984,
+        0.79433274269104
+      ],
+      "min": [
+        -0.80181515216827393,
+        -0.0068160085938870907,
+        -0.74828028678894043
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 21792,
+      "type": "SCALAR",
+      "max": [
+        5474.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "model.bin",
+      "byteLength": 349968
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 65700
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65700,
+      "byteLength": 65700
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131400,
+      "byteLength": 87600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 219000,
+      "byteLength": 43800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 262800,
+      "byteLength": 87168
+    }
+  ],
+  "images": [
+    {
+      "uri": "dirt_steel_2_normal.png",
+      "name": "dirt_steel_2_normal"
+    },
+    {
+      "uri": "dirt_steel_2_baseColor.png",
+      "name": "dirt_steel_2_baseColor"
+    },
+    {
+      "uri": "dirt_steel_2_metallic.png",
+      "name": "dirt_steel_2_metallic"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.921568632
+        ],
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.99,
+        "roughnessFactor": 0.2070000022649765,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "strength": 0.21899999678134918,
+        "index": 2
+      },
+      "name": "dirt_steel_2"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.06834661,
+        0.06834661,
+        0.06834661
+      ],
+      "translation": [
+        -0.009000001,
+        -0.002,
+        -0.065
+      ],
+      "name": "model"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "default"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "model"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "dirt_steel_2_normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "dirt_steel_2_baseColor"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "dirt_steel_2_metallic"
+    }
+  ]
+}
