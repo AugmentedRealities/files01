@@ -1,0 +1,246 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC3",
+      "max": [
+        0.79544597864151,
+        0.90793514251708984,
+        0.74828028678894043
+      ],
+      "min": [
+        -0.80181515216827393,
+        -0.0068160085938870907,
+        -0.79433274269104
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5475,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 21792,
+      "type": "SCALAR",
+      "max": [
+        5474.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "model.bin",
+      "byteLength": 306384
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 65700
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65700,
+      "byteLength": 65700
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131400,
+      "byteLength": 87600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 219000,
+      "byteLength": 43800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 262800,
+      "byteLength": 43584
+    }
+  ],
+  "images": [
+    {
+      "uri": "dirt_steel_2_baseColor.png",
+      "name": "dirt_steel_2_baseColor"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1509434,
+          0.1509434,
+          0.1509434,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "dirt_steel_2"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "model"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        68.34661,
+        68.34661,
+        68.34661
+      ],
+      "translation": [
+        -9.0,
+        -2.0,
+        574.0
+      ],
+      "name": "model"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.915120542,
+        0.0,
+        1.41239417
+      ],
+      "name": "model (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        1.50995052,
+        0.0,
+        -1.48361325
+      ],
+      "name": "model (2)"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -2.063014,
+        0.0,
+        -0.500390768
+      ],
+      "name": "model (3)"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "model"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "dirt_steel_2_baseColor"
+    }
+  ]
+}
